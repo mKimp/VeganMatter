@@ -1,0 +1,217 @@
+[
+  {
+    "id": "Shiitake Soup with Parsley and Mixed Herbs",
+    "obj": [
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "shiitake mushrooms"
+      },
+      {
+        "rb-ia": "½ bunch ",
+        "rb-in": "parsley"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "garlic clove"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "salad herbs (dried)"
+      },
+      {
+        "rb-ia": "750 ml ",
+        "rb-in": "vegetable broth"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "coconut oil"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Clean shiitake mushrooms and cut into strips, peel and chop garlic, chop parsley coarsely",
+        "2": "Heat a pot and melt the coconut oil. Sauté shiitake mushrooms and garlic briefly",
+        "3": "Vegetable broth, parsley, peppercorns and salad herbs add. Simmer for ~10 minutes"
+      }
+    ]
+  },
+  {
+    "id": "Tofu in Tomato-Coriander-Sauce",
+    "obj": [
+      {
+        "rb-ia": "500 g ",
+        "rb-in": "peeled tomatoes (canned)"
+      },
+      {
+        "rb-ia": "200 g ",
+        "rb-in": "tofu"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "onion"
+      },
+      {
+        "rb-ia": "2 ",
+        "rb-in": "garlic cloves"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "oregano"
+      },
+      {
+        "rb-ia": "1 bunch ",
+        "rb-in": "coriander"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "coconut oil"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Side dish"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "tortilla chips"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Peel onion and garlic, chop both and sauté in a pan with coconut oil",
+        "2": "Cut tofu into stripes, remove the stalk of the canned tomatoes and cut into small pieces",
+        "3": "Put tomatoes together with the peppercorns, oregano and salt in the pan, simmer for 5 minutes, stir occasionally",
+        "4": "Coarsely chop coriander and add together with the tofu in the sauce, simmer for a further ~ 7 minutes, stir occasionally"
+      }
+    ]
+  },
+  {
+    "id": "Grated Kohlrabi Salad with Beetroot, Carrot, Cucumber and Sprouts",
+    "obj": [
+      {
+        "rb-ia": "",
+        "rb-it": "Dressing"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "soy yogurt (natural)"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "oregano"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "rosemary"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "pepper"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "dill"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "canola oil"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "agave syrup"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Salad"
+      },
+      {
+        "rb-ia": "100 g ",
+        "rb-in": "kohlrabi"
+      },
+      {
+        "rb-ia": "100 g ",
+        "rb-in": "beetroots"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "carrots"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "cucumber"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "shallot"
+      },
+      {
+        "rb-ia": "25 g ",
+        "rb-in": "red radish sprouts"
+      },
+      {
+        "rb-ia": "30 g ",
+        "rb-in": "alfalfa sprouts"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Mix well soy yogurt together with all the herbs, salt, rapeseed oil and agave syrup",
+        "2": "Peel and chop the shallot",
+        "3": "Peel kohlrabi, carrots and beetroot and grater coarsely all together with the cucumber (alternatively: chop coarsely and blend briefly)",
+        "4": "Mix everything well and serve with the sprouts"
+      }
+    ]
+  },
+  {
+    "id": "Ginger Biscuits",
+    "obj": [
+      {
+        "rb-ia": "15 g ",
+        "rb-in": "ginger"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "lemon"
+      },
+      {
+        "rb-ia": "220 g ",
+        "rb-in": "vegetable margarine"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "raw cane sugar"
+      },
+      {
+        "rb-ia": "350 g ",
+        "rb-in": "spelt flour"
+      },
+      {
+        "rb-ia": "1 pkg ",
+        "rb-in": "baking powder"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Peel and finely grate the ginger. Wash the lemon well and rub the peel",
+        "2": "Mix the soft margarine with the sugar. Put in the flour, baking powder, ginger and lemon peel and process it into a paste",
+        "3": "Form balls with your hands (about 2.5 cm ∅) and put on a baking sheet with parchment paper, leaving a little distance. Press the balls flat with a fork",
+        "4": "Set the oven to 170 °C and place them in the middle for 13 minutes, then take the ginger biscuits from the baking tray and leave them to cool"
+      }
+    ]
+  }
+]
