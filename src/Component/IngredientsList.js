@@ -5,10 +5,15 @@ import IngredientItem from './IngredientItem';
 
 function IngredientsList({ ingredients }) {
   return (
-    <div>
-      <ul>
+    <div className="IngredientListContainer">
+      <h2>Ingredients that you have</h2>
+      <ul className="IngredientList">
         {ingredients.map((item) => (
-          <IngredientItem key={Math.random() * 1000} currentI={item} />
+          <IngredientItem
+            id={item.id}
+            currentI={item.value}
+            ischecked={item.ischecked}
+          />
         ))}
       </ul>
     </div>

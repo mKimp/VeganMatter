@@ -3,7 +3,7 @@ import ParentFilterData from './ParentFilterData';
 
 function ParentContainer() {
   return (
-    <div className="container">
+    <div>
       <ParentFilterData />
     </div>
   );
