@@ -40,10 +40,9 @@ function ParentFilterData() {
       </div>
     );
   }
-  console.log(checkboxState)
   return (
     <div className="container">
-      <IngredientsList ingredients={checkboxState} />
+      <IngredientsList checkboxState={checkboxState} setCheckBoxState={setCheckBoxState}/>
     </div>
   );
 }

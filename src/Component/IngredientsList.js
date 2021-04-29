@@ -3,16 +3,16 @@
 import React from 'react';
 import IngredientItem from './IngredientItem';
 
-function IngredientsList({ ingredients }) {
+function IngredientsList({ checkboxState, setCheckBoxState }) {
   return (
     <div className="IngredientListContainer">
       <h2>Ingredients that you have</h2>
       <ul className="IngredientList">
-        {ingredients.map((item) => (
+        {checkboxState.map((item) => (
           <IngredientItem
-            id={item.id}
-            currentI={item.value}
-            ischecked={item.ischecked}
+            item={item}
+            checkboxState={checkboxState}
+            setCheckBoxState={setCheckBoxState}
           />
         ))}
       </ul>
