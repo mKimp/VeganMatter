@@ -40,6 +40,46 @@
     ]
   },
   {
+    "id": "Shiitake Soup",
+    "obj": [
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "shiitake mushrooms"
+      },
+      {
+        "rb-ia": "½ bunch ",
+        "rb-in": "parsley"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "garlic clove"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "salad herbs (dried)"
+      },
+      {
+        "rb-ia": "750 ml ",
+        "rb-in": "vegetable broth"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "coconut oil"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Clean shiitake mushrooms and cut into strips, peel and chop garlic, chop parsley coarsely",
+        "2": "Heat a pot and melt the coconut oil. Sauté shiitake mushrooms and garlic briefly",
+        "3": "Vegetable broth, parsley, peppercorns and salad herbs add. Simmer for ~10 minutes"
+      }
+    ]
+  },
+  {
     "id": "Tofu in Tomato-Coriander-Sauce",
     "obj": [
       {

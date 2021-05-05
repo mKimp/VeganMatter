@@ -9,7 +9,7 @@ function ParentFilterData() {
   const [isLoaded, setLoading] = useState(false);
   const [checkboxState, setCheckBoxState] = useState([]);
   const [recipiesList, setRecipiesList] = useState([]);
-  const [isEmptyMatched, setMatchedList] = useState(true);
+  const [deleteMatched, setDeleteMatched] = useState([]);
   // filter the data from the database
   useEffect(() => {
     const arrayIngredient = data.map((item) => item.obj);
@@ -35,49 +35,47 @@ function ParentFilterData() {
     })
     setLoading(true);
   }, []);
+  const compare = (array1, array2) => {
+    const sortedArray1 = array1.sort();
+    const sortedArray2 = array2.sort();
+    console.log(sortedArray2);
 
+    for (let i = 0; i < array1.length; i+=1){
+      if (sortedArray1[i] !== sortedArray2[i]){
+        return -1;
+      }
+    }
+    return 1;
+  }
   useEffect(() =>{
     const checkedBox = checkboxState.filter((item) => (item.isChecked === true));
     const ingredientValue = checkedBox.map((item) => item.value);
-    let isMatched = true;
+    let isMatched = 1;
+    const included = [];
     const arrayRecipie = data.map((item) => {
-      const tempArray = item.obj;      
-      tempArray.map((ingr) => {
-        const temp = ingr["rb-in"];
-        if(ingredientValue.includes(temp)){
-          isMatched = true;
-        }
-        else{
-          isMatched = false;
-        }
-      })
-      if(isMatched){
+      const tempArray = item.obj; 
+      console.log("new array")
+      const ingredientListToCompare =tempArray.map((ingr) => ingr["rb-in"]);
+      const filterUndefined = ingredientListToCompare.filter((isUndefined) => typeof(isUndefined) !== 'undefined')
+
+      isMatched = compare(filterUndefined , ingredientValue);
+        
+      if(isMatched === 1){
         if(!recipiesList.includes(item)){
-          console.log("MATCHED")
           setRecipiesList(pre => [...pre, item]);
-          isMatched = !isMatched;
+         // setDeleteMatched(recipiesList);
         }
       }
-      else if (!isMatched && recipiesList.includes(item)){
-          const index = recipiesList.indexOf(item) ; 
-          recipiesList.splice(index, 1);
-          setRecipiesList(recipiesList);
+      else if (isMatched === -1 && recipiesList.includes(item)){
+          const copyArray = [...recipiesList];
+          const index = copyArray.indexOf(item) ; 
+          copyArray.splice(index, 1);
+          setRecipiesList(copyArray);
       }
     })
   }, [checkboxState])
 
   /* ------------------------------------------------------------ */
-
-    useEffect(() => {
-      if(recipiesList.length === 0){
-        setMatchedList(true);
-      }
-      else{
-        setMatchedList(false);
-      }
-    }, [recipiesList])
-  
-
   if (!isLoaded) {
     return (
       <div>
@@ -85,11 +83,10 @@ function ParentFilterData() {
       </div>
     );
   }
-  console.log(recipiesList);
   return (
     <div className="container">
       <IngredientsList checkboxState={checkboxState} setCheckBoxState={setCheckBoxState}/>
-      <MatchedRecipieList recipiesList={recipiesList} isEmptyMatched={isEmptyMatched}/>
+      <MatchedRecipieList recipiesList={recipiesList}/>
     </div>
   );
 }

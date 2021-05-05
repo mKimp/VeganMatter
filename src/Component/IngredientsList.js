@@ -4,6 +4,7 @@ import React from 'react';
 import IngredientItem from './IngredientItem';
 
 function IngredientsList({ checkboxState, setCheckBoxState }) {
+  // checkboxState.sort((a, b) => (a.value > b.value ? 1 : -1));
   return (
     <div className="IngredientListContainer">
       <h2>Ingredients that you have</h2>
