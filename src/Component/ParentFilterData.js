@@ -9,18 +9,17 @@ function ParentFilterData() {
   const [isLoaded, setLoading] = useState(false);
   const [checkboxState, setCheckBoxState] = useState([]);
   const [recipiesList, setRecipiesList] = useState([]);
-  const [deleteMatched, setDeleteMatched] = useState([]);
+  
   // filter the data from the database
   useEffect(() => {
     const arrayIngredient = data.map((item) => item.obj);
     const filterIngredients = arrayIngredient .map((item) =>
-    item.filter((current) => current['rb-in'])
-  );
+      item.filter((current) => current['rb-in'])
+    );
 
   // eslint-disable-next-line prefer-const
   let set = new Set();
-  filterIngredients.map((current) =>  {
-      current.map((each) => {
+  filterIngredients.map((current) => { current.map((each) => {
         // eslint-disable-next-line prefer-const
         let obj = {
           value: each['rb-in'],
@@ -35,10 +34,10 @@ function ParentFilterData() {
     })
     setLoading(true);
   }, []);
+
   const compare = (array1, array2) => {
     const sortedArray1 = array1.sort();
     const sortedArray2 = array2.sort();
-    console.log(sortedArray2);
 
     for (let i = 0; i < array1.length; i+=1){
       if (sortedArray1[i] !== sortedArray2[i]){
@@ -51,10 +50,8 @@ function ParentFilterData() {
     const checkedBox = checkboxState.filter((item) => (item.isChecked === true));
     const ingredientValue = checkedBox.map((item) => item.value);
     let isMatched = 1;
-    const included = [];
     const arrayRecipie = data.map((item) => {
       const tempArray = item.obj; 
-      console.log("new array")
       const ingredientListToCompare =tempArray.map((ingr) => ingr["rb-in"]);
       const filterUndefined = ingredientListToCompare.filter((isUndefined) => typeof(isUndefined) !== 'undefined')
 
@@ -67,13 +64,11 @@ function ParentFilterData() {
         }
       }
       else if (isMatched === -1 && recipiesList.includes(item)){
-          const copyArray = [...recipiesList];
-          const index = copyArray.indexOf(item) ; 
-          copyArray.splice(index, 1);
-          setRecipiesList(copyArray);
+        const filterA = recipiesList.filter((del) => del.id !== item.id)
+        setRecipiesList(filterA);
       }
     })
-  }, [checkboxState])
+  }, [checkboxState, recipiesList])
 
   /* ------------------------------------------------------------ */
   if (!isLoaded) {
