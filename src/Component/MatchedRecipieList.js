@@ -22,7 +22,6 @@ function MatchedRecipieList({ recipiesList }) {
         {recipiesList.length} recipies.
       </h2>
       {recipiesList.map((item) => console.log(item))}
-      <MatchedItem key="hehehhe" />
       <ul className="todoList">
         {recipiesList.map((item) => (
           <MatchedItem item={item} />
