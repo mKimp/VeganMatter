@@ -1,5 +1,129 @@
 [
   {
+    "id": "Ginger Biscuits",
+    "obj": [
+      {
+        "rb-ia": "15 g ",
+        "rb-in": "ginger"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "lemon"
+      },
+      {
+        "rb-ia": "220 g ",
+        "rb-in": "vegetable margarine"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "raw cane sugar"
+      },
+      {
+        "rb-ia": "350 g ",
+        "rb-in": "spelt flour"
+      },
+      {
+        "rb-ia": "1 pkg ",
+        "rb-in": "baking powder"
+      }
+    ],
+    "ins": [
+      [
+        "Peel and finely grate the ginger. Wash the lemon well and rub the peel",
+        "Mix the soft margarine with the sugar. Put in the flour, baking powder, ginger and lemon peel and process it into a paste",
+        "Form balls with your hands (about 2.5 cm ∅) and put on a baking sheet with parchment paper, leaving a little distance. Press the balls flat with a fork",
+        "Set the oven to 170 °C and place them in the middle for 13 minutes, then take the ginger biscuits from the baking tray and leave them to cool"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/10/Ingwerkekse-Ginger-biscuits-825x619.jpg"
+  },
+  {
+    "id": "Flower Sprouts with Baked Potatoes and Sauce with Dried Tomatoes",
+    "obj": [
+      {
+        "rb-ia": "",
+        "rb-it": "Baked Potatoes"
+      },
+      {
+        "rb-ia": "1.5 kg ",
+        "rb-in": "potatoes"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "olive oil"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Sauce"
+      },
+      {
+        "rb-ia": "40 g ",
+        "rb-in": "tomatoes (sun-dried)"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "onion"
+      },
+      {
+        "rb-ia": "3 ",
+        "rb-in": "garlic cloves"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "tomato paste"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "mustard"
+      },
+      {
+        "rb-ia": "3 Tbsp ",
+        "rb-in": "salad herbs (dried)"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "sweet lupine flour"
+      },
+      {
+        "rb-ia": "500 ml ",
+        "rb-in": "water"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Flower Sprouts"
+      },
+      {
+        "rb-ia": "250 g ",
+        "rb-in": "Flower Sprouts"
+      }
+    ],
+    "ins": [
+      [
+        "Peel potatoes and cut into 2 cm thick slices. Combine potatoes with olive oil and salt, mix well (eg, in a bowl shake - with lid/plate)",
+        "Place potatoes on a baking sheet with parchment paper and bake in preheated oven at 180 °C for ~25 minutes gold brown",
+        "Peel the onion and garlic, cut both into small cubes. Also cut dried tomatoes into cubes",
+        "Heat coconut oil in a pan and sauté the onions for 2 minutes. Add garlic and dried tomatoes and sauté also for 2 minutes",
+        "Add the tomato paste, mustard, salad herbs and peppercorns. Stir briefly and deglaze with boiling water",
+        "Stir in sweet lupine flour well and briefly boil everything together",
+        "Depending on your preference add some water or let the sauce simmer until the desired consistency is reached. Season with a pinch of salt if necessary",
+        "Wash Flower Sprouts and simmer in boiling water for 4 minutes, then remove"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2016/01/Flower-Sprouts-mit-Ofenkartoffeln-und-Sauce-mit-getrockneten-Tomaten-Flower-Sprouts-with-baked-potatoes-and-sauce-with-dried-tomatoes-825x1100.jpg"
+  },
+  {
     "id": "Shiitake Soup with Parsley and Mixed Herbs",
     "obj": [
       {
@@ -32,109 +156,13 @@
       }
     ],
     "ins": [
-      {
-        "1": "Clean shiitake mushrooms and cut into strips, peel and chop garlic, chop parsley coarsely",
-        "2": "Heat a pot and melt the coconut oil. Sauté shiitake mushrooms and garlic briefly",
-        "3": "Vegetable broth, parsley, peppercorns and salad herbs add. Simmer for ~10 minutes"
-      }
-    ]
-  },
-  {
-    "id": "Shiitake Soup",
-    "obj": [
-      {
-        "rb-ia": "150 g ",
-        "rb-in": "shiitake mushrooms"
-      },
-      {
-        "rb-ia": "½ bunch ",
-        "rb-in": "parsley"
-      },
-      {
-        "rb-ia": "1 ",
-        "rb-in": "garlic clove"
-      },
-      {
-        "rb-ia": "½ tsp ",
-        "rb-in": "black peppercorns"
-      },
-      {
-        "rb-ia": "1 Tbsp ",
-        "rb-in": "salad herbs (dried)"
-      },
-      {
-        "rb-ia": "750 ml ",
-        "rb-in": "vegetable broth"
-      },
-      {
-        "rb-ia": " ",
-        "rb-in": "coconut oil"
-      }
+      [
+        "Clean shiitake mushrooms and cut into strips, peel and chop garlic, chop parsley coarsely",
+        "Heat a pot and melt the coconut oil. Sauté shiitake mushrooms and garlic briefly",
+        "Vegetable broth, parsley, peppercorns and salad herbs add. Simmer for ~10 minutes"
+      ]
     ],
-    "ins": [
-      {
-        "1": "Clean shiitake mushrooms and cut into strips, peel and chop garlic, chop parsley coarsely",
-        "2": "Heat a pot and melt the coconut oil. Sauté shiitake mushrooms and garlic briefly",
-        "3": "Vegetable broth, parsley, peppercorns and salad herbs add. Simmer for ~10 minutes"
-      }
-    ]
-  },
-  {
-    "id": "Tofu in Tomato-Coriander-Sauce",
-    "obj": [
-      {
-        "rb-ia": "500 g ",
-        "rb-in": "peeled tomatoes (canned)"
-      },
-      {
-        "rb-ia": "200 g ",
-        "rb-in": "tofu"
-      },
-      {
-        "rb-ia": "1 ",
-        "rb-in": "onion"
-      },
-      {
-        "rb-ia": "2 ",
-        "rb-in": "garlic cloves"
-      },
-      {
-        "rb-ia": "½ tsp ",
-        "rb-in": "black peppercorns"
-      },
-      {
-        "rb-ia": "½ tsp ",
-        "rb-in": "salt"
-      },
-      {
-        "rb-ia": "½ tsp ",
-        "rb-in": "oregano"
-      },
-      {
-        "rb-ia": "1 bunch ",
-        "rb-in": "coriander"
-      },
-      {
-        "rb-ia": " ",
-        "rb-in": "coconut oil"
-      },
-      {
-        "rb-ia": "",
-        "rb-it": "Side dish"
-      },
-      {
-        "rb-ia": " ",
-        "rb-in": "tortilla chips"
-      }
-    ],
-    "ins": [
-      {
-        "1": "Peel onion and garlic, chop both and sauté in a pan with coconut oil",
-        "2": "Cut tofu into stripes, remove the stalk of the canned tomatoes and cut into small pieces",
-        "3": "Put tomatoes together with the peppercorns, oregano and salt in the pan, simmer for 5 minutes, stir occasionally",
-        "4": "Coarsely chop coriander and add together with the tofu in the sauce, simmer for a further ~ 7 minutes, stir occasionally"
-      }
-    ]
+    "img": "https://cdn.eat-vegan.rocks/2015/11/Shiitake-Suppe-mit-Petersilie-und-gemischten-Kraeutern-Shiitake-Soup-with-Parsley-and-Mixed-Herbs-825x1100.jpg"
   },
   {
     "id": "Grated Kohlrabi Salad with Beetroot, Carrot, Cucumber and Sprouts",
@@ -209,49 +237,275 @@
       }
     ],
     "ins": [
-      {
-        "1": "Mix well soy yogurt together with all the herbs, salt, rapeseed oil and agave syrup",
-        "2": "Peel and chop the shallot",
-        "3": "Peel kohlrabi, carrots and beetroot and grater coarsely all together with the cucumber (alternatively: chop coarsely and blend briefly)",
-        "4": "Mix everything well and serve with the sprouts"
-      }
-    ]
+      [
+        "Mix well soy yogurt together with all the herbs, salt, rapeseed oil and agave syrup",
+        "Peel and chop the shallot",
+        "Peel kohlrabi, carrots and beetroot and grater coarsely all together with the cucumber (alternatively: chop coarsely and blend briefly)",
+        "Mix everything well and serve with the sprouts"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/11/Geriebener-Kohlrabi-Salat-mit-Rote-Bete-Karotte-Gurke-und-Sprossen-Grated-Kohlrabi-Salad-with-Beetroot-Carrot-Cucumber-and-Sprouts-825x619.jpg"
   },
   {
-    "id": "Ginger Biscuits",
+    "id": "Spinach Soup with Roasted Tofu",
     "obj": [
       {
-        "rb-ia": "15 g ",
-        "rb-in": "ginger"
+        "rb-ia": "",
+        "rb-it": "Roasted Tofu"
       },
       {
-        "rb-ia": "1 ",
-        "rb-in": "lemon"
+        "rb-ia": "200 g ",
+        "rb-in": "smoked tofu"
       },
       {
-        "rb-ia": "220 g ",
-        "rb-in": "vegetable margarine"
+        "rb-ia": "1 tsp ",
+        "rb-in": "red curry paste"
       },
       {
-        "rb-ia": "150 g ",
-        "rb-in": "raw cane sugar"
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "coconut oil"
       },
       {
-        "rb-ia": "350 g ",
-        "rb-in": "spelt flour"
+        "rb-ia": "",
+        "rb-it": "Soup"
       },
       {
-        "rb-ia": "1 pkg ",
-        "rb-in": "baking powder"
+        "rb-ia": "500 g ",
+        "rb-in": "leaf spinach (frozen)"
+      },
+      {
+        "rb-ia": "250 g ",
+        "rb-in": "mushrooms"
+      },
+      {
+        "rb-ia": "2 l ",
+        "rb-in": "vegetable broth"
+      },
+      {
+        "rb-ia": "2 twigs ",
+        "rb-in": "parsley"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "coconut oil"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "flour"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "curcuma"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "salt"
       }
     ],
     "ins": [
+      [
+        "Cut smoked tofu into small pieces",
+        "Heat coconut oil in the pan, roast tofu with curry paste briefly and then remove",
+        "Chop thawed spinach and parsley separated, clean mushrooms and halve or quarter them",
+        "Sauté spinach in a pan with some coconut oil for ~5 minutes, stirring occasionally and finally remove",
+        "Melt coconut oil in a pot and add flour all at once whisking vigorously. Stir occasionally until the roux gets light brownish",
+        "Deglaze roux with vegetable broth and add all ingredients, simmer for 5 minutes"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/11/Spinatsuppe-mit-gebratenem-Tofu-Spinach-Soup-with-Roasted-Tofu-825x619.jpg"
+  },
+  {
+    "id": "Tofu in Tomato-Coriander-Sauce",
+    "obj": [
       {
-        "1": "Peel and finely grate the ginger. Wash the lemon well and rub the peel",
-        "2": "Mix the soft margarine with the sugar. Put in the flour, baking powder, ginger and lemon peel and process it into a paste",
-        "3": "Form balls with your hands (about 2.5 cm ∅) and put on a baking sheet with parchment paper, leaving a little distance. Press the balls flat with a fork",
-        "4": "Set the oven to 170 °C and place them in the middle for 13 minutes, then take the ginger biscuits from the baking tray and leave them to cool"
+        "rb-ia": "500 g ",
+        "rb-in": "peeled tomatoes (canned)"
+      },
+      {
+        "rb-ia": "200 g ",
+        "rb-in": "tofu"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "onion"
+      },
+      {
+        "rb-ia": "2 ",
+        "rb-in": "garlic cloves"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "oregano"
+      },
+      {
+        "rb-ia": "1 bunch ",
+        "rb-in": "coriander"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "coconut oil"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Side dish"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "tortilla chips"
       }
-    ]
+    ],
+    "ins": [
+      [
+        "Peel onion and garlic, chop both and sauté in a pan with coconut oil",
+        "Cut tofu into stripes, remove the stalk of the canned tomatoes and cut into small pieces",
+        "Put tomatoes together with the peppercorns, oregano and salt in the pan, simmer for 5 minutes, stir occasionally",
+        "Coarsely chop coriander and add together with the tofu in the sauce, simmer for a further ~ 7 minutes, stir occasionally"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/11/Tofu-in-Tomaten-Koriander-Sauce-Tofu-in-Tomato-Coriander-Sauce-825x1100.jpg"
+  },
+  {
+    "id": "Braised baby lettuce with walnuts and fine lemon dressing",
+    "obj": [
+      {
+        "rb-ia": "4 ",
+        "rb-in": "baby lettuces"
+      },
+      {
+        "rb-ia": "100 g ",
+        "rb-in": "walnuts"
+      },
+      {
+        "rb-ia": "4 ",
+        "rb-in": "garlic cloves"
+      },
+      {
+        "rb-ia": "4 Tbsp ",
+        "rb-in": "olive oil"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Dressing"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "soy yogurt (natural)"
+      },
+      {
+        "rb-ia": "½ ",
+        "rb-in": "lemon"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "agave syrup"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "pepper"
+      }
+    ],
+    "ins": [
+      [
+        "Mix the soy yogurt with agave syrup, salt, pepper and the juice of the lemon",
+        "Halve walnuts into quarters, garlic and roast both in a pan over medium heat, then remove",
+        "Wash baby lettuce and halve lengthwise - including the stem! Drain and stew the cut surface in a pan with olive oil for ~5 minutes, until they are golden brown"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/08/Geschmorter-Baby-Lattich-mit-Walnuessen-und-edler-Zitronensauce-Braised-baby-lettuce-with-walnuts-and-fine-lemon-sauce-825x619.jpg"
+  },
+  {
+    "id": "Fried Broccoli with Sun-Dried Tomatoes and Cashew Nuts",
+    "obj": [
+      {
+        "rb-ia": "500 g ",
+        "rb-in": "broccoli"
+      },
+      {
+        "rb-ia": "100 g ",
+        "rb-in": "cashew nuts"
+      },
+      {
+        "rb-ia": "75 g ",
+        "rb-in": "tomatoes (sun-dried)"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "sesame oil"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Sauce"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "oregano"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "dill"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "rosemary"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "pepper"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "75 ml ",
+        "rb-in": "olive oil"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "lemon juice"
+      }
+    ],
+    "ins": [
+      [
+        "Mix all ingredients together in a jar of sauce",
+        "Cut broccoli into florets and sun dried tomatoes into quarters",
+        "Fry cashew nuts in a frying pan and remove",
+        "Heat sesame oil in a pan and add plenty of broccoli and sear by stirring for 3 minutes",
+        "Mix in the sun dried tomatoes, cashew nuts and sauce and sauté all for 2 minutes while stirring well"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/11/Gebratener-Broccoli-mit-getrockneten-Tomaten-und-Cashewkernen-Fried-Broccoli-with-Sun-Dried-Tomatoes-and-Cashew-Nuts-825x1100.jpg"
+  },
+  {
+    "id": "Roasted Chestnuts in the Oven",
+    "obj": [
+      {
+        "rb-ia": "500 g ",
+        "rb-in": "chestnuts"
+      }
+    ],
+    "ins": [
+      [
+        "Cut in maroni shell crosswise with a knife, so they do not burst in the oven",
+        "Bake on a baking sheet in a preheated oven at 180 °C for ~18 minutes"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
   }
 ]

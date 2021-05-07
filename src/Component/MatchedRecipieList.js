@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
 import MatchedItem from './MatchedItem';
 
 function MatchedRecipieList({ recipiesList }) {

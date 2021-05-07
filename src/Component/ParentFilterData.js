@@ -36,11 +36,14 @@ function ParentFilterData() {
   }, []);
 
   const compare = (array1, array2) => {
-    const sortedArray1 = array1.sort();
-    const sortedArray2 = array2.sort();
+    const removedDuplicate = [...new Set(array1)]; 
+    const recipieMatch = removedDuplicate.sort();
+    const userInput = array2.sort();
+
+
 
     for (let i = 0; i < array1.length; i+=1){
-      if (sortedArray1[i] !== sortedArray2[i]){
+      if (recipieMatch[i] !== userInput[i]){
         return -1;
       }
     }
