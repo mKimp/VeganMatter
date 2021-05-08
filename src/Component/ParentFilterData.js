@@ -37,11 +37,19 @@ function ParentFilterData() {
 
   const compare = (array1, array2) => {
     const removedDuplicate = [...new Set(array1)]; 
+    for (let i = 0; i < removedDuplicate.length; i += 1) {
+      // eslint-disable-next-line no-param-reassign
+     removedDuplicate[i] = removedDuplicate[i].toLowerCase();
+    }
     const recipieMatch = removedDuplicate.sort();
+
+    for (let i = 0; i < recipieMatch.length; i += 1) {
+      // eslint-disable-next-line no-param-reassign
+      recipieMatch [i]=
+      recipieMatch [i].charAt(0).toUpperCase() +
+      recipieMatch [i].slice(1);
+    }
     const userInput = array2.sort();
-
-
-
     for (let i = 0; i < array1.length; i+=1){
       if (recipieMatch[i] !== userInput[i]){
         return -1;
@@ -59,15 +67,17 @@ function ParentFilterData() {
       const filterUndefined = ingredientListToCompare.filter((isUndefined) => typeof(isUndefined) !== 'undefined')
 
       isMatched = compare(filterUndefined , ingredientValue);
-        
       if(isMatched === 1){
         if(!recipiesList.includes(item)){
+          console.log("item not included")
+          console.log(item)
           setRecipiesList(pre => [...pre, item]);
          // setDeleteMatched(recipiesList);
         }
       }
       else if (isMatched === -1 && recipiesList.includes(item)){
         const filterA = recipiesList.filter((del) => del.id !== item.id)
+        // const filterA = [...new Set(recipiesList)];
         setRecipiesList(filterA);
       }
     })

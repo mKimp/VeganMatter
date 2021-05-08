@@ -493,6 +493,61 @@
     "img": "https://cdn.eat-vegan.rocks/2015/11/Gebratener-Broccoli-mit-getrockneten-Tomaten-und-Cashewkernen-Fried-Broccoli-with-Sun-Dried-Tomatoes-and-Cashew-Nuts-825x1100.jpg"
   },
   {
+    "id": "Vegan cinnamon stars",
+    "obj": [
+      {
+        "rb-ia": "200 g ",
+        "rb-in": "powdered sugar"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "almonds (ground)"
+      },
+      {
+        "rb-ia": "200 g ",
+        "rb-in": "hazelnuts (ground)"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "cinnamon"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "orange zest (grated)"
+      },
+      {
+        "rb-ia": "8 Tbsp ",
+        "rb-in": "water"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "lemon juice"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Icing"
+      },
+      {
+        "rb-ia": "160 g ",
+        "rb-in": "powdered sugar"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "water"
+      }
+    ],
+    "ins": [
+      [
+        "Put powdered sugar, almonds, hazelnuts, cinnamon and orange zest into a bowl and quickly mix it.",
+        "Add water and lemon juice and work all of it into a dough. Even if it looks as if there were not enough fluids, hand knead your dough.",
+        "Roll out the dough at approx. 1cm thickness on a floury surface, cut out the forms you'd like - traditionally stars - and put those on a tray (covered with baking paper). Let the cookies dry for approx. 2 hours",
+        "Place the baking tray in the middle of the oven and bake at 200 °C for approx. 8 minutes",
+        "Create a thick icing from the remaining powdered sugar and water and cover the baked cookies with it. You can do this with the backside of a spoon - but it is better and quicker if you dip the top of your cookies into the icing real quick and remove the dripping icing with a palette knife. Let the icing dry completely prior to stacking your cinnamon stars!"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2014/12/Vegane-Zimtsterne-Vegan-cinnamon-star-cookies-Zimtsterne-825x1100.jpg"
+  },
+  {
     "id": "Roasted Chestnuts in the Oven",
     "obj": [
       {

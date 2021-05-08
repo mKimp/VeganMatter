@@ -19,7 +19,7 @@ function IngredientsList({ checkboxState, setCheckBoxState }) {
   }
   return (
     <div className="IngredientListContainer">
-      <h2>Ingredients that you have</h2>
+      <h2>Available Ingredients</h2>
       <ul className="IngredientList">
         {checkboxState.map((item) => (
           <IngredientItem

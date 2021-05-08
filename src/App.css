@@ -6,9 +6,10 @@
   display: flex;
 }
 .IngredientListContainer{
-  display: flex;
-  flex-direction: column;
   border: 1px solid blue;
+  width: 400px;
+  height:800px;
+  overflow-y: scroll;
 }
 .IngredientList{
   list-style-type: none;
