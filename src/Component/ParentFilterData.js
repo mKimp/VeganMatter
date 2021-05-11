@@ -1,6 +1,7 @@
 /* eslint-disable no-else-return */
 /* eslint-disable prettier/prettier */
 import React, { useState, useEffect} from 'react';
+import {Container, Row, Col} from 'react-bootstrap';
 import data from './data/data.json';
 import IngredientsList from './IngredientsList';
 import MatchedRecipieList from './MatchedRecipieList';
@@ -9,7 +10,7 @@ function ParentFilterData() {
   const [isLoaded, setLoading] = useState(false);
   const [checkboxState, setCheckBoxState] = useState([]);
   const [recipiesList, setRecipiesList] = useState([]);
-  
+  const [searchIngre, setSearchIngre] = useState(checkboxState);
   // filter the data from the database
   useEffect(() => {
     const arrayIngredient = data.map((item) => item.obj);
@@ -92,10 +93,19 @@ function ParentFilterData() {
     );
   }
   return (
-    <div className="container">
-      <IngredientsList checkboxState={checkboxState} setCheckBoxState={setCheckBoxState}/>
-      <MatchedRecipieList recipiesList={recipiesList}/>
-    </div>
+    <Container fluid>
+      <Row><h1 className="m-auto">Vegan Matters</h1></Row>
+      <Row>
+        <Col>
+          <h2>Available Ingredients</h2>
+          <IngredientsList checkboxState={checkboxState} setCheckBoxState={setCheckBoxState}/>
+        </Col>
+        <Col>
+          <MatchedRecipieList recipiesList={recipiesList}/>
+        </Col>
+      </Row>
+    </Container>
+     
   );
 }
 

@@ -2,6 +2,7 @@
 /* eslint-disable array-callback-return */
 import React from 'react';
 import IngredientItem from './IngredientItem';
+import SearchBox from './SearchBox';
 
 function IngredientsList({ checkboxState, setCheckBoxState }) {
   // const lower = checkboxState.map((item) => item.value.toLowerCase());
@@ -19,7 +20,6 @@ function IngredientsList({ checkboxState, setCheckBoxState }) {
   }
   return (
     <div className="IngredientListContainer">
-      <h2>Available Ingredients</h2>
       <ul className="IngredientList">
         {checkboxState.map((item) => (
           <IngredientItem

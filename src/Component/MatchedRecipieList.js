@@ -12,10 +12,10 @@ function MatchedRecipieList({ recipiesList }) {
   }
 
   return (
-    <div>
+    <div className="MatchedRecipies">
       <h2>Matched Recipies: {recipiesList.length} recipies.</h2>
       {recipiesList.map((item) => console.log(item))}
-      <ul className="todoList">
+      <ul className="MatchedRecipiesList">
         {recipiesList.map((item) => (
           <MatchedItem item={item} />
         ))}
