@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
-import { Card, Button, Modal, Container } from 'react-bootstrap';
+import { Card, Button, Modal, Image } from 'react-bootstrap';
 import Quantity from './Quantity';
 
 function MatchedItem({ item }) {
@@ -21,12 +21,14 @@ function MatchedItem({ item }) {
     setShow(true);
   };
   return (
-    <div>
+    <div className="MatchedItems">
       <li key={item.id}>
         <Card style={{ width: '25rem' }}>
-          <Card.Img variant="top" src={item.img} />
+          <Image fluid variant="top" src={item.img} thumbnail className="img" />
           <Card.Body>
-            <Card.Title>{item.id}</Card.Title>
+            <Card.Title>
+              <h2 className="display-6">{item.id} </h2>
+            </Card.Title>
             <Button variant="primary" onClick={showModal}>
               Details
             </Button>

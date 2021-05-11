@@ -93,14 +93,13 @@ function ParentFilterData() {
     );
   }
   return (
-    <Container fluid>
-      <Row><h1 className="m-auto">Vegan Matters</h1></Row>
+    <Container fluid className="container">
       <Row>
-        <Col>
-          <h2>Available Ingredients</h2>
+        <Col lg={4} md={4} sm={5} className="pl-0">
+          <h2 className="display-5">Ingredients</h2>
           <IngredientsList checkboxState={checkboxState} setCheckBoxState={setCheckBoxState}/>
         </Col>
-        <Col>
+        <Col lg={8} md={8} sm={7}>
           <MatchedRecipieList recipiesList={recipiesList}/>
         </Col>
       </Row>

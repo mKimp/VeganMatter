@@ -18,6 +18,7 @@ function IngredientItem({ item, checkboxState, setCheckBoxState }) {
     <>
       <li className="ingredient-item" key={item.id}>
         <FormCheck
+          className="ml-0"
           type="checkbox"
           value={item.value}
           checked={item.isChecked}

@@ -1,24 +1,32 @@
+.container{
+  border: 1px solid red;
+  margin-top: 70px;
+}
+.display-2{
+  margin-top: 50px;
+  text-align: center;
+}
 .IngredientListContainer{
   border: 1px solid blue;
-  width: 400px;
   height:800px;
   overflow-y: scroll;
+
 }
 .IngredientList{
   list-style-type: none;
 
 }
 .ingredient-item{
-  padding:10px
+  padding-top:10px;
+  padding-left:-10
+  
 }
 
 /* Matched Recipies List */ 
 .MatchedRecipiesList{
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px dotted black;
-
+  height:800px;
+  overflow-y: scroll;
 }
 
 /* Matched Item */
@@ -30,4 +38,47 @@
 /* Quantity of Item */
 .quantityItems {
   text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .MatchedRecipiesList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .MatchedRecipiesList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+
+.IngredientListContainer {
+  
+}
+}
+
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  font-size: 1.5rem /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size:2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {font-size:3rem;} /*1rem = 16px*/    
 }
