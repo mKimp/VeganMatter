@@ -563,6 +563,41 @@
     ],
     "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
   },
+
+  {
+    "id": "Roasted Chestnuts in the Oven",
+    "obj": [
+      {
+        "rb-ia": "500 g ",
+        "rb-in": "chestnuts"
+      }
+    ],
+    "ins": [
+      [
+        "Cut in maroni shell crosswise with a knife, so they do not burst in the oven",
+        "Bake on a baking sheet in a preheated oven at 180 °C for ~18 minutes"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
+  },
+
+  {
+    "id": "Roasted Chestnuts in the Oven",
+    "obj": [
+      {
+        "rb-ia": "500 g ",
+        "rb-in": "chestnuts"
+      }
+    ],
+    "ins": [
+      [
+        "Cut in maroni shell crosswise with a knife, so they do not burst in the oven",
+        "Bake on a baking sheet in a preheated oven at 180 °C for ~18 minutes"
+      ]
+    ],
+    "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
+  },
+
   {
     "id": "Roasted Chestnuts in the Oven",
     "obj": [
@@ -579,4 +614,5 @@
     ],
     "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
   }
+
 ]

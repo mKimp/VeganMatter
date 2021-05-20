@@ -1,7 +1,7 @@
 /* eslint-disable no-else-return */
 /* eslint-disable prettier/prettier */
 import React, { useState, useEffect} from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Button, Container, Row, Col} from 'react-bootstrap';
 import data from './data/data.json';
 import IngredientsList from './IngredientsList';
 import MatchedRecipieList from './MatchedRecipieList';
@@ -93,10 +93,10 @@ function ParentFilterData() {
     );
   }
   return (
-    <Container fluid className="container">
+    <Container className="container">
       <Row>
-        <Col xl={3} lg={4} md={4} sm={5} className="pl-0">
-          <h2 className="display-5" >Ingredients</h2>
+        <Col xl={3} lg={4} md={4} sm={5}>
+        <Button variant="primary" size="lg" block> Ingredients </Button>{' '}
           <IngredientsList checkboxState={checkboxState} setCheckBoxState={setCheckBoxState}/>
         </Col>
         <Col xl={9} lg={8} md={8} sm={7}>

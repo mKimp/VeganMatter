@@ -23,12 +23,10 @@ function MatchedItem({ item }) {
   return (
     <div className="MatchedItems">
       <li key={item.id}>
-        <Card className="Card" fluid>
+        <Card className="Card" style={{ width: '18rem' }}>
           <Image fluid variant="top" src={item.img} thumbnail className="img" />
           <Card.Body>
-            <Card.Title>
-              <h2 className="display-6">{item.id} </h2>
-            </Card.Title>
+            <Card.Title>{item.id}</Card.Title>
             <Button variant="primary" onClick={showModal}>
               Details
             </Button>

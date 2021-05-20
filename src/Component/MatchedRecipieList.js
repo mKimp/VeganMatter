@@ -1,19 +1,26 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import MatchedItem from './MatchedItem';
 
 function MatchedRecipieList({ recipiesList }) {
   if (recipiesList.length === 0) {
     return (
       <div>
-        <h2>Matched Recipies: {recipiesList.length}.</h2>
+        <Button variant="primary" size="lg" block>
+          {' '}
+          Matched Recipies{' '}
+        </Button>{' '}
       </div>
     );
   }
 
   return (
     <div className="MatchedRecipies">
-      <h2 className="display-5">Matched Recipies: {recipiesList.length}</h2>
+      <Button variant="primary" size="lg" block>
+        {' '}
+        Matched Recipies: {recipiesList.length}{' '}
+      </Button>{' '}
       <ul className="MatchedRecipiesList pl-0">
         {recipiesList.map((item) => (
           <MatchedItem item={item} />
