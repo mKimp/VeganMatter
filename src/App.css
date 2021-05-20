@@ -1,32 +1,48 @@
-.container{
-  border: 1px solid red;
-  margin-top: 70px;
+body {
+  margin:0;
+  padding:0;
 }
-.display-2{
-  margin-top: 50px;
+
+.container{
+  margin-top: 70px;
+  border: 1px solid black;
+}
+
+.display-2 {
+  padding-left:30px;
+  padding-top:30px;
+}
+
+.IngredientListContainer{
+  height:800px;
+  overflow-y: auto;
+  display: block;
+}
+
+.pl-0{
+  border-right: 1px solid black;
+}
+
+.display-5{
+  margin:20px;
   text-align: center;
 }
-.IngredientListContainer{
-  border: 1px solid blue;
-  height:800px;
-  overflow-y: scroll;
 
-}
 .IngredientList{
   list-style-type: none;
-
+  display: flex;
+  flex-direction: column;
 }
 .ingredient-item{
-  padding-top:10px;
-  padding-left:-10
-  
+  padding-top:10px;  
 }
 
 /* Matched Recipies List */ 
 .MatchedRecipiesList{
   list-style-type: none;
   height:800px;
-  overflow-y: scroll;
+  display:flex;
+  justify-content: space-between;
 }
 
 /* Matched Item */
@@ -51,34 +67,29 @@
   .MatchedRecipiesList {
     display: flex;
     flex-wrap: wrap;
+    overflow-y: scroll;
   }
 }
 
-@media only screen and (min-width: 576px) {
-
-.IngredientListContainer {
+@media only screen and (min-width: 768px) {
+  .IngredientListContainer {
   
-}
+  }
 }
 
 
+@media only screen and (min-width: 576px) {
+  .IngredientListContainer {
+  
+  }
+}
 
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
-  font-size: 1.5rem /*1rem = 16px*/
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-  h1 {font-size:2rem;} /*1rem = 16px*/
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  h1 {font-size:2.5rem;} /*1rem = 16px*/
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-  h1 {font-size:3rem;} /*1rem = 16px*/    
+@media only screen and (max-width: 576px) {
+  .IngredientListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: space-between;
+
+  }
 }

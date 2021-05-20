@@ -23,7 +23,7 @@ function MatchedItem({ item }) {
   return (
     <div className="MatchedItems">
       <li key={item.id}>
-        <Card style={{ width: '25rem' }}>
+        <Card className="Card" fluid>
           <Image fluid variant="top" src={item.img} thumbnail className="img" />
           <Card.Body>
             <Card.Title>
@@ -43,7 +43,7 @@ function MatchedItem({ item }) {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>{item.id}</Modal.Title>
+          <Modal.Title className="title">{item.id}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <ul className="ingredientQuantity">

@@ -13,9 +13,7 @@ function MatchedRecipieList({ recipiesList }) {
 
   return (
     <div className="MatchedRecipies">
-      <h2 className="display-5 pl-0">
-        Matched Recipies: {recipiesList.length}
-      </h2>
+      <h2 className="display-5">Matched Recipies: {recipiesList.length}</h2>
       <ul className="MatchedRecipiesList pl-0">
         {recipiesList.map((item) => (
           <MatchedItem item={item} />

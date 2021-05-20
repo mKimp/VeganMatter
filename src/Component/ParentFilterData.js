@@ -95,11 +95,11 @@ function ParentFilterData() {
   return (
     <Container fluid className="container">
       <Row>
-        <Col lg={4} md={4} sm={5} className="pl-0">
-          <h2 className="display-5">Ingredients</h2>
+        <Col xl={3} lg={4} md={4} sm={5} className="pl-0">
+          <h2 className="display-5" >Ingredients</h2>
           <IngredientsList checkboxState={checkboxState} setCheckBoxState={setCheckBoxState}/>
         </Col>
-        <Col lg={8} md={8} sm={7}>
+        <Col xl={9} lg={8} md={8} sm={7}>
           <MatchedRecipieList recipiesList={recipiesList}/>
         </Col>
       </Row>
