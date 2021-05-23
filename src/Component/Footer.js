@@ -4,12 +4,12 @@ import { FaRegHeart } from 'react-icons/fa';
 function Footer() {
   return (
     <footer>
-      <p>
+      <h6>
         Made with love by Kim Ma{' '}
         <span>
           <FaRegHeart />
         </span>
-      </p>
+      </h6>
     </footer>
   );
 }
