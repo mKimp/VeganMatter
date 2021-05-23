@@ -11,6 +11,7 @@ function MatchedRecipieList({ recipiesList }) {
           {' '}
           Matched Recipies{' '}
         </Button>{' '}
+        <ul className="MatchedRecipiesList pl-0" />
       </div>
     );
   }

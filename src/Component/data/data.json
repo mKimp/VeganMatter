@@ -563,56 +563,155 @@
     ],
     "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
   },
-
   {
-    "id": "Roasted Chestnuts in the Oven",
+    "id": "Vegan cinnamon stars",
     "obj": [
       {
-        "rb-ia": "500 g ",
-        "rb-in": "chestnuts"
+        "rb-ia": "200 g ",
+        "rb-in": "powdered sugar"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "almonds (ground)"
+      },
+      {
+        "rb-ia": "200 g ",
+        "rb-in": "hazelnuts (ground)"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "cinnamon"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "orange zest (grated)"
+      },
+      {
+        "rb-ia": "8 Tbsp ",
+        "rb-in": "water"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "lemon juice"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Icing"
+      },
+      {
+        "rb-ia": "160 g ",
+        "rb-in": "powdered sugar"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "water"
       }
     ],
     "ins": [
       [
-        "Cut in maroni shell crosswise with a knife, so they do not burst in the oven",
-        "Bake on a baking sheet in a preheated oven at 180 °C for ~18 minutes"
+        "Put powdered sugar, almonds, hazelnuts, cinnamon and orange zest into a bowl and quickly mix it.",
+        "Add water and lemon juice and work all of it into a dough. Even if it looks as if there were not enough fluids, hand knead your dough.",
+        "Roll out the dough at approx. 1cm thickness on a floury surface, cut out the forms you'd like - traditionally stars - and put those on a tray (covered with baking paper). Let the cookies dry for approx. 2 hours",
+        "Place the baking tray in the middle of the oven and bake at 200 °C for approx. 8 minutes",
+        "Create a thick icing from the remaining powdered sugar and water and cover the baked cookies with it. You can do this with the backside of a spoon - but it is better and quicker if you dip the top of your cookies into the icing real quick and remove the dripping icing with a palette knife. Let the icing dry completely prior to stacking your cinnamon stars!"
       ]
     ],
-    "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
+    "img": "https://cdn.eat-vegan.rocks/2014/12/Vegane-Zimtsterne-Vegan-cinnamon-star-cookies-Zimtsterne-825x1100.jpg"
   },
-
   {
-    "id": "Roasted Chestnuts in the Oven",
+    "id": "Vegan Coconut Macaroons",
     "obj": [
       {
-        "rb-ia": "500 g ",
-        "rb-in": "chestnuts"
+        "rb-ia": "200 g ",
+        "rb-in": "coconut flakes"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "sugar"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "4 Tbsp ",
+        "rb-in": "soy flour"
+      },
+      {
+        "rb-ia": "2 Tbsp ",
+        "rb-in": "coconut oil"
+      },
+      {
+        "rb-ia": "75 ml ",
+        "rb-in": "water"
       }
     ],
     "ins": [
       [
-        "Cut in maroni shell crosswise with a knife, so they do not burst in the oven",
-        "Bake on a baking sheet in a preheated oven at 180 °C for ~18 minutes"
+        "Mix coconut flakes, sugar and 1 pinch of salt in a bowl",
+        "Melt coconut oil and mix with soy flour and water. Add the previous ingredients and mix well. The dough is very crumbly, but should not be too dry",
+        "Form coconut macaroons firmly with the help of two teaspoons and give them on a baking tray with baking paper",
+        "Bake at 180 °C oven middle for ~ 8 minutes. After that, take the coconut macaroons from the plate and allow them to cool down"
       ]
     ],
-    "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
+    "img": "https://cdn.eat-vegan.rocks/2014/12/Vegane-Kokosmakronen-825x619.jpg"
   },
-
   {
-    "id": "Roasted Chestnuts in the Oven",
+    "id": "Vegan scones with chocolate, orange and amaretto",
     "obj": [
       {
-        "rb-ia": "500 g ",
-        "rb-in": "chestnuts"
+        "rb-ia": "250 g ",
+        "rb-in": "flour"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "sugar"
+      },
+      {
+        "rb-ia": "2 tsp ",
+        "rb-in": "baking powder"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "baking soda"
+      },
+      {
+        "rb-ia": "30 g ",
+        "rb-in": "coconut oil"
+      },
+      {
+        "rb-ia": "150 ml ",
+        "rb-in": "coconut milk"
+      },
+      {
+        "rb-ia": "50 g ",
+        "rb-in": "chocolate cubes"
+      },
+      {
+        "rb-ia": "20 ml ",
+        "rb-in": "amaretto"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "orange"
       }
     ],
     "ins": [
       [
-        "Cut in maroni shell crosswise with a knife, so they do not burst in the oven",
-        "Bake on a baking sheet in a preheated oven at 180 °C for ~18 minutes"
+        "Wash the orange thoroughly and grate the zest",
+        "Mix everything except for coconut oil, coconut milk and amaretto.",
+        "Melt and add coconut oil",
+        "Add amaretto and coconut milk and knead until the dough is smooth",
+        "Let the dough sit in your fridge for 15 minutes",
+        "Put your dough, that is approx. 1-2 cm thick, on a floury surface and cut out the scones with a regular glas (approx. 6 cm diameter)",
+        "Put the cut out scones onto a baking rack covered with baking sheets and let it sit for another 5 minutes",
+        "Preheat your oven and bake for ~10 minutes at 225°C top and bottom heating"
       ]
     ],
-    "img": "https://cdn.eat-vegan.rocks/2015/10/Geroestete-Maronen-im-Backofen-Roasted-Chestnuts-in-the-Oven-825x619.jpg"
+    "img": "https://cdn.eat-vegan.rocks/2015/02/Vegane-Scones-mit-Schokolade-Orange-und-Amaretto-825x1100.jpg"
   }
-
 ]

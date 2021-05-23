@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 /* eslint-disable no-else-return */
 /* eslint-disable prettier/prettier */
 import React, { useState, useEffect} from 'react';
@@ -10,7 +11,6 @@ function ParentFilterData() {
   const [isLoaded, setLoading] = useState(false);
   const [checkboxState, setCheckBoxState] = useState([]);
   const [recipiesList, setRecipiesList] = useState([]);
-  const [searchIngre, setSearchIngre] = useState(checkboxState);
   // filter the data from the database
   useEffect(() => {
     const arrayIngredient = data.map((item) => item.obj);
@@ -20,6 +20,7 @@ function ParentFilterData() {
 
   // eslint-disable-next-line prefer-const
   let set = new Set();
+  // eslint-disable-next-line array-callback-return
   filterIngredients.map((current) => { current.map((each) => {
         // eslint-disable-next-line prefer-const
         let obj = {
@@ -34,6 +35,7 @@ function ParentFilterData() {
       });
     })
     setLoading(true);
+
   }, []);
 
   const compare = (array1, array2) => {
@@ -62,7 +64,7 @@ function ParentFilterData() {
     const checkedBox = checkboxState.filter((item) => (item.isChecked === true));
     const ingredientValue = checkedBox.map((item) => item.value);
     let isMatched = 1;
-    const arrayRecipie = data.map((item) => {
+    data.map((item) => {
       const tempArray = item.obj; 
       const ingredientListToCompare =tempArray.map((ingr) => ingr["rb-in"]);
       const filterUndefined = ingredientListToCompare.filter((isUndefined) => typeof(isUndefined) !== 'undefined')
@@ -70,19 +72,24 @@ function ParentFilterData() {
       isMatched = compare(filterUndefined , ingredientValue);
       if(isMatched === 1){
         if(!recipiesList.includes(item)){
-          console.log("item not included")
-          console.log(item)
           setRecipiesList(pre => [...pre, item]);
-         // setDeleteMatched(recipiesList);
         }
       }
       else if (isMatched === -1 && recipiesList.includes(item)){
         const filterA = recipiesList.filter((del) => del.id !== item.id)
-        // const filterA = [...new Set(recipiesList)];
         setRecipiesList(filterA);
       }
     })
   }, [checkboxState, recipiesList])
+
+  const reset = () => {
+    const filter = [...checkboxState];
+    for (let i = 0; i < filter.length; i+=1){
+      filter[i].isChecked = false;
+    }
+    setCheckBoxState(filter);
+
+  }
 
   /* ------------------------------------------------------------ */
   if (!isLoaded) {
@@ -102,6 +109,10 @@ function ParentFilterData() {
         <Col xl={9} lg={8} md={8} sm={7}>
           <MatchedRecipieList recipiesList={recipiesList}/>
         </Col>
+      </Row>
+
+      <Row className="MarginRow">
+        <Button variant="primary" size="lg" block onClick={reset}> Reset </Button>{' '} 
       </Row>
     </Container>
      

@@ -1,6 +1,16 @@
 import React from 'react';
+import { FaRegHeart } from 'react-icons/fa';
 
 function Footer() {
-  return <Footer>Kim Ma</Footer>;
+  return (
+    <footer>
+      <p>
+        Made with love by Kim Ma{' '}
+        <span>
+          <FaRegHeart />
+        </span>
+      </p>
+    </footer>
+  );
 }
 export default Footer;

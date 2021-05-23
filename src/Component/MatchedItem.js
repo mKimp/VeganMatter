@@ -9,14 +9,12 @@ function MatchedItem({ item }) {
   const filterUndefined = quantity.filter(
     (rb) => typeof rb['rb-it'] !== 'undefined'
   );
-  console.log(filterUndefined);
-  const titleIngredient = filterUndefined.map((i) => i['rb-it']);
-  console.log(titleIngredient[1]);
+  filterUndefined.map((i) => i['rb-it']);
   const instruction = item.ins[0];
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
   const showModal = () => {
     setShow(true);
   };
@@ -66,7 +64,6 @@ function MatchedItem({ item }) {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary">Save</Button>
         </Modal.Footer>
       </Modal>
     </div>

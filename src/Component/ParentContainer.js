@@ -6,6 +6,7 @@ function ParentContainer() {
   return (
     <div>
       <ParentFilterData />
+      <hr style={{ backgroundColor: 'white' }} />
       <Footer />
     </div>
   );
